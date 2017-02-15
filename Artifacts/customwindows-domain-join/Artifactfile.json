@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
-  "title": "Active Directory Domain Join",
+  "title": "ADTLLOB Active Directory Domain Join",
   "description": "Joins a Windows VM to an Active Directory Domain. Requires that the Windows operating system can resolve the domain name and domain controller via DNS.",
   "tags": [
     "Windows",
@@ -13,14 +13,6 @@
           "type": "string",
           "displayName": "Active Directory Domain Name",
 		  "description": "The name of the Active Directory Domain to join (e.g. \"corp.contoso.com\")."
-      },
-      "domainOU": {
-          "type": "string",
-          "displayName": "Active Directory Domain OU",
-		  "defaultValue": "",
-		  "metadata": {
-          "description": "The distinguished name of the Organizational Unit to join (e.g. \"OU=DevTest,DC=corp,DC=contoso,DC=com\")"
-		  }
       },
       "domainJoinUser": {
           "type": "string",
