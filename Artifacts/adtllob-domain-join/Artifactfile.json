@@ -27,7 +27,6 @@
     "autoUpgradeMinorVersion": true,
     "settings": {
           "Name": "redmond.corp.microsoft.com",
-          "OUPath": "CN=Computers,DC=redmond,DC=corp,DC=microsoft,DC=com",
           "User": "[parameters('domainJoinUser')]",
           "Restart": "true",
           "Options": "3"
