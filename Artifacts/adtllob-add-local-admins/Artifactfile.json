@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+  "title": "ADTLLOB Add Local Admins",
+  "description": "Add users and groups to the local administrator group.",
+  "tags": [
+    "Windows",
+    "Active Directory"
+  ],
+  "iconUri": "",
+  "targetOsType": "Windows",
+  "parameters": { 
+      "adminList": {
+          "type": "string",
+          "displayName": "List of Admins",
+          "description": "Comma separated list of admins (e.g. "domain\user1,domain\group1")"
+      }
+   },
+  "runCommand": {
+    "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass -File Add-LobLocalAdmins.ps1', ' -Accounts ', parameters('adminList'))]"
+  }
+}
