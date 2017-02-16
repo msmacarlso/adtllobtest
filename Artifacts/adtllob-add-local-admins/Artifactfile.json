@@ -12,7 +12,7 @@
       "adminList": {
           "type": "string",
           "displayName": "List of Admins",
-          "description": "Comma separated list of admins (e.g. "domain\user1,domain\group1")"
+          "description": "Comma separated list of admins (e.g. \"domain\\user1,domain\\group1\")"
       }
    },
   "runCommand": {
