@@ -26,7 +26,7 @@
     "typeHandlerVersion": "1.3",
     "autoUpgradeMinorVersion": true,
     "settings": {
-          "Name": "redmond.corp.mirosoft.com",
+          "Name": "redmond.corp.microsoft.com",
           "OUPath": "CN=Computers,DC=redmond,DC=corp,DC=microsoft,DC=com",
           "User": "[parameters('domainJoinUser')]",
           "Restart": "true",
