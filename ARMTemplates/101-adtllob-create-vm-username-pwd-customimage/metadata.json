@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "ADTLLOB Template Test",
+  "description": "adtllob This template creates a new VM in a DevTest Lab / DTL instance using a custom image",
+  "summary": "adtllob This template creates a new VM in a DevTest Lab instance and creates a new user account on the VM",
+  "githubUsername": "mithunshanbhag",
+  "dateUpdated": "2015-11-11"
+}
