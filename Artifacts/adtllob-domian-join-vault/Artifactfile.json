@@ -19,6 +19,14 @@
           "displayName": "Domain Join User Account",
           "description": "The user account with rights to join the system to the domain (e.g. \"CORP\\user\" or \"user@corp.contoso.com\")"
       },
+	  "domainJoinUserPassword": {
+          "reference": {
+          "keyVault": {
+          "id": "/subscriptions/d6ec9941-9970-4251-b90c-69dc125c2c92/resourceGroups/LOBPOCVAULT/providers/Microsoft.KeyVault/vaults/lobtestvault"
+		  },
+		   "secretName": "Redmond-ITLSTNT"
+		   }
+		},   
       "domainJoinOptions": {
           "type": "string",
           "displayName": "Domain Join Options",
